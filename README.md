@@ -1,7 +1,5 @@
 # US Federal Agency Intranet Framework
 
-
-
 ## License
 
 All source code in the [US Federal Agency Intranet Framework](https://github.com/Quinncuatro/USFederalAgencyIntranetFramework)
@@ -10,11 +8,19 @@ is available under the Beerware License. See
 
 ## Getting started
 
-To get started with the app, clone the repo and then install the needed gems:
+To get started with the app, pull the image and spin up a container:
 
 ```
-More To Come
+docker pull quinncuatr/us_webtranet
+
+docker run -d -p 3000:3000 quinncuatro/us_webtranet rails s -p 3000 -b '0.0.0.0'
+```
+
+If you get an ActiveRecord::PendingMigrationError:
+
+```
+docker exec {{Container_Name}} bundle exec rake db:migrate RAILS_ENV=development
 ```
 
 For more information, see the
-[*US Federal Agency Intranet Framework* Repo](https://github.com/Quinncuatro/USFederalAgencyIntranetFramework).
+[*US Webtranet* Repo](https://github.com/Quinncuatro/USFederalAgencyIntranetFramework).

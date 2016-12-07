@@ -23,4 +23,4 @@ docker exec {{Container_Name}} bundle exec rake db:migrate RAILS_ENV=development
 ```
 
 For more information, see the
-[*US Webtranet* Repo](https://github.com/Quinncuatro/USFederalAgencyIntranetFramework).
+[*US Webtranet* Repo](https://github.com/Quinncuatro/us_webtranet/).

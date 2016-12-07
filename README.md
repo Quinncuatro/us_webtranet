@@ -11,7 +11,7 @@ is available under the Beerware License. See
 To get started with the app, pull the image and spin up a container:
 
 ```
-docker pull quinncuatr/us_webtranet
+docker pull quinncuatro/us_webtranet
 
 docker run -d -p 3000:3000 quinncuatro/us_webtranet rails s -p 3000 -b '0.0.0.0'
 ```

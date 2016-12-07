@@ -1,0 +1,14 @@
+<div class="row">
+  <div class="col-xs-12 col-sm-offset-2 col-sm-8 col-md-offset-4 col-md-4">
+    <table class="table table-bordered">
+      <tr>
+        <td class="tableHeading">Operations</td>
+      </tr>
+      <% @uploads.each do |upload| %>
+        <tr>
+          <td><%= link_to upload.name, upload.attachment_url %></td>
+        </tr>
+      <% end %>
+    </table>
+  </div>
+</div>

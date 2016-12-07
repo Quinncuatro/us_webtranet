@@ -1,0 +1,2 @@
+module TablePageHelper
+end

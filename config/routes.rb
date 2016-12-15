@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'users/new'
+
   resources :uploads, only: [:index, :new, :create, :destroy]
 
   root 'table_page#home'
@@ -14,4 +16,6 @@ Rails.application.routes.draw do
   get '/chambers', to: 'table_page#chambers'
   get '/jury', to: 'table_page#jury'
   get '/alldocs', to: 'uploads#index'
+  
+  get '/signup', to: 'users#new'
 end

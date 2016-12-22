@@ -6,6 +6,10 @@ All source code in the [US Federal Agency Intranet Framework](https://github.com
 is available under the Beerware License. See
 [LICENSE.md](https://github.com/Quinncuatro/us_webtranet/blob/master/LICENSE.md) for details.
 
+## Docker Image
+
+This web app is available as a [Docker image](https://hub.docker.com/r/quinncuatro/us_webtranet/).
+
 ## Getting started
 
 To get started with the app, pull the image and spin up a container:

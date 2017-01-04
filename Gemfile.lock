@@ -191,7 +191,8 @@ GEM
       thread_safe (~> 0.1)
     uglifier (3.0.0)
       execjs (>= 0.3.0, < 3)
-    us_web_design_standards_ror (0.1.0)
+    us_web_design_standards_ror (0.2.5)
+      rails (~> 5.0, >= 5.0.0.1)
     web-console (3.1.1)
       activemodel (>= 4.2)
       debug_inspector
@@ -227,7 +228,7 @@ DEPENDENCIES
   turbolinks (= 5.0.1)
   tzinfo-data
   uglifier (= 3.0.0)
-  us_web_design_standards_ror (= 0.1.0)
+  us_web_design_standards_ror (= 0.2.5)
   web-console (= 3.1.1)
 
 BUNDLED WITH

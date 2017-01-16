@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  get 'sessions/new'
+
   get 'users/new'
   resources :users
   get '/signup', to: 'users#new'
@@ -20,5 +22,9 @@ Rails.application.routes.draw do
   get '/chambers', to: 'table_page#chambers'
   get '/jury', to: 'table_page#jury'
   get '/alldocs', to: 'uploads#index'
+
+  get '/login', to: 'sessions#new'
+  post '/login', to: 'sessions#create'
+  delete'/logout', to: 'sessions#destroy'
 
 end

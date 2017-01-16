@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  get 'users/new'
+
   resources :uploads, only: [:index, :new, :create, :destroy]
 
   root 'table_page#home'

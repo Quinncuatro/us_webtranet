@@ -7,7 +7,7 @@ Rails.application.routes.draw do
   get '/signup', to: 'users#new'
   post '/signup', to: 'users#create'
 
-  resources :uploads, only: [:index, :new, :create, :destroy]
+  resources :uploads
 
   root 'table_page#home'
   get '/about', to: 'static_pages#about'
@@ -25,6 +25,6 @@ Rails.application.routes.draw do
 
   get '/login', to: 'sessions#new'
   post '/login', to: 'sessions#create'
-  delete'/logout', to: 'sessions#destroy'
+  delete '/logout', to: 'sessions#destroy'
 
 end

@@ -1,5 +1,20 @@
 <% provide(:title, "About") %>
 <h1>US Federal Agency Intranet Framework</h1>
 <p>
-  Hey team! I'm working on a new name for this. If you have anything, I'm all ears.
+  When I was first hired in Connecticut, our intranet site looked like a remnant of the 1990's GeoCities era. Over the next year or so, I ccontinued making small changes to it. In December of 2015, I plugged in a <a href="http://www.sphider.eu/">search function</a> capable of looking through PDF's and Word documents. In the summer of 2016, I had some free time in the afternoons following training sessions, so I gave the site a front-end facelift with <a href="http://getbootstrap.com/">Bootstrap</a>. Now, in an attempt to learn newer web technologies, I decided to rebuild our intranet using <a href="http://rubyonrails.org/">Ruby on Rails</a> and the <a href="https://standards.usa.gov/">Draft U.S. Web Design Standards</a>.
+</p>
+<p>
+  I didn't want to be the bottleneck on our old LAMP stack system, anymore. I had to manually FTP files to our server, edit PHP files, and make sure all of our links worked and were in the right place. In the past couple of years, I've adopted the motto, "If you're going to do it more than once, automate it." This was long past due.
+</p>
+<p>
+  This new version, as it currently stands, handles user authentication and light authorization. Only logged in administrators can create new accounts, and only those new accounts, once logged in, can actually upload files. Tagging an uploaded document with a Category (and soon, a subcategory) will automatically sort the documents into their relevant tabs and tables to keep information organized in an intuitive way. As of right now, only administrators are allowed to delete posted documents.
+</p>
+<p><b>
+  To Do:
+</b></p>
+<p>
+    - Allow authorized users to delete/revise their own posted documents.<br>
+    - Split up the documents in each tab into relevant tables.<br>
+    - Finish implementing Draft U.S. Web Design Standards.<br>
+    - Rework indivual tabs/pages to render a customized shim.<br>
 </p>

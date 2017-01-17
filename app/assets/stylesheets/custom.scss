@@ -38,6 +38,14 @@ body{
         font-size:21px;
 }
 
+.row a:link, .row a:visited, .row a:hover, .row a:active {
+  text-decoration: none;
+}
+
+.navbar-collapse a:link, .navbar-collapse a:visited, .navbar-collapse a:hover, .navbar-collapse a:active {
+  text-decoration: none;
+}
+
 .row {
         margin-left: 0;
         margin-right: 0;
@@ -53,7 +61,6 @@ body{
 .navLink {
         font-size: 17px;
 }
-
 
 .title-centered {
         margin: 0 auto !important;
@@ -387,4 +394,16 @@ input {
 #session_remember_me {
   width: auto;
   margin-left: 0;
+}
+
+/* Users index */
+
+.users {
+  list-style: none;
+  margin: 0;
+  li {
+    overflow: auto;
+    padding: 10px 0;
+    border-bottom: 1px solid $gray-lighter;
+  }
 }

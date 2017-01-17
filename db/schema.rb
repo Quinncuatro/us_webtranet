@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170116212255) do
+ActiveRecord::Schema.define(version: 20170117004206) do
 
   create_table "uploads", force: :cascade do |t|
     t.string   "name"
@@ -25,10 +25,11 @@ ActiveRecord::Schema.define(version: 20170116212255) do
     t.string   "first_name"
     t.string   "last_name"
     t.string   "email"
-    t.datetime "created_at",      null: false
-    t.datetime "updated_at",      null: false
+    t.datetime "created_at",                      null: false
+    t.datetime "updated_at",                      null: false
     t.string   "password_digest"
     t.string   "remember_digest"
+    t.boolean  "admin",           default: false
   end
 
 end

@@ -51,11 +51,27 @@
         <li class="divider-vertical"></li>
         <li><%= link_to "Jury", jury_path %></li>
         <li class="divider-vertical"></li>
+        <li><%= link_to "Upload" , alldocs_path %></li>
+        <li class="divider-vertical"></li>
         <% if logged_in? %>
-          <li><%= link_to "Upload", alldocs_path %></li>
-          <li class="divider-vertical"></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              Account <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu">
+              <li><%= link_to "Profile", current_user %></li>
+              <li><%= link_to "Settings", edit_user_path(current_user) %></li>
+              <% if current_user.admin? %>
+                <li><% link_to "Create User", signup_path %></li>
+              <% end %>
+              <li class="divider"></li>
+              <li>
+                <%= link_to "Log out", logout_path, method: "delete" %>
+              </li>
+            </ul>
+          </li>
         <% else %>
-          <li><%= link_to "Log In", login_path %></li>
+          <li><%= link_to "Log in", login_path %></li>
         <% end %>
         <!--<li><a class="navLink" href="/sphider/search.php">Search</a></li>
         <li class="divider-vertical"></li>-->

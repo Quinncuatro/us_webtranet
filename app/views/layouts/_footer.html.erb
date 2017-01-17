@@ -1,24 +1,19 @@
 <div class="footerStyle">
   <div class="row">
-    <div class="col-xs-12 col-sm-6 col-md-9 text-left">
+    <div class="col-xs-12 col-sm-6 col-md-8 text-left">
       <p>Developed with <%= fa_icon "heart" %> by <a href="https://henryneeds.coffee">Henry Quinn</a></p>
     </div>
-    <div class="col-xs-12 col-sm-2 col-md-1 text-right">
-      <p><%= link_to "About", about_path %></p>
-    </div>
+
     <% if logged_in? %>
-      <div class="col-xs-12 col-sm-2 col-md-1 text-right">
-        <p><%= link_to "Profile", current_user %></p>
+      <div class="col-xs-12 col-sm-3 col-md-2 text-right">
+        <p><%= link_to "About", about_path %></p>
       </div>
-      <div class="col-xs-12 col-sm-2 col-md-1 text-right">
-        <p><%= link_to "Log Out", logout_path %></p>
+      <div class="col-xs-12 col-sm-3 col-md-2 text-right">
+        <p><%= link_to "Users", users_path %></p>
       </div>
     <% else %>
-      <div class="col-xs-12 col-sm-2 col-md-1 text-right">
-        <p><%= link_to "Sign Up", signup_path %></p>
-      </div>
-      <div class="col-xs-12 col-sm-2 col-md-1 text-right">
-        <p><%= link_to "Log In", login_path %></p>
+      <div class="col-xs-12 col-sm-6 col-md-4 text-right">
+        <p><%= link_to "About", about_path %></p>
       </div>
     <% end %>
   </div>

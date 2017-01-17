@@ -70,3 +70,8 @@ gem 'font-awesome-rails', '4.7.0.0'
 
 # CarrierWave handles file uploads
 gem 'carrierwave', '0.9'
+
+# Seed Users
+gem 'faker', '1.6.6'
+gem 'will_paginate', '3.1.0'
+gem 'bootstrap-will_paginate', '0.0.10'

@@ -1,0 +1,10 @@
+<tr>
+  <td><%= upload.name %></td>
+  <td><%= upload.category %></td>
+  <td><%= upload.subcategory %></td>
+  <td><%= link_to "Download Upload", upload.attachment_url %></td>
+  <td>
+    <% if current_user.admin? %>
+      <%= button_to "Delete",  upload, method: :delete, class: "btn btn-danger", data: { confirm: "Are you sure that you wish to delete #{upload.name}?" } %></td>
+    <% end %>
+</tr>

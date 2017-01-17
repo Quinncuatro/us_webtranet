@@ -17,7 +17,7 @@ Rails.application.routes.draw do
   get '/hr', to: 'table_page#hr'
   get '/forms', to: 'table_page#forms'
   get '/operations', to: 'table_page#operations'
-  get '/happenings', to: 'table_page#Happenings'
+  get '/happenings', to: 'table_page#happenings'
   get '/court_family', to: 'table_page#courtFamily'
   get '/chambers', to: 'table_page#chambers'
   get '/jury', to: 'table_page#jury'

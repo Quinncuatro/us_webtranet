@@ -42,224 +42,224 @@ end
 Upload.create!(name: "Test Document",
                category: "Home",
                subcategory: "",
-               attachment: "TEST.pdf")
+               attachment: "/uploads/upload/attachment/46/TEST.pdf")
 
 Upload.create!(name: "Test Document",
                category: "Home",
                subcategory: "",
-               attachment: "TEST.pdf")
+               attachment: "/uploads/upload/attachment/46/TEST.pdf")
 
 Upload.create!(name: "Test Document",
                category: "Home",
                subcategory: "",
-               attachment: "TEST.pdf")
+               attachment: "/uploads/upload/attachment/46/TEST.pdf")
 
 Upload.create!(name: "Test Document",
                category: "Home",
                subcategory: "",
-               attachment: "TEST.pdf")
+               attachment: "/uploads/upload/attachment/46/TEST.pdf")
 
 Upload.create!(name: "Test Document",
                category: "Home",
                subcategory: "",
-               attachment: "TEST.pdf")
+               attachment: "/uploads/upload/attachment/46/TEST.pdf")
 
 Upload.create!(name: "Test Document",
                category: "HR",
                subcategory: "",
-               attachment: "TEST.pdf")
+               attachment: "/uploads/upload/attachment/46/TEST.pdf")
 
 Upload.create!(name: "Test Document",
                category: "HR",
                subcategory: "",
-               attachment: "TEST.pdf")
+               attachment: "/uploads/upload/attachment/46/TEST.pdf")
 
 Upload.create!(name: "Test Document",
                category: "HR",
                subcategory: "",
-               attachment: "TEST.pdf")
+               attachment: "/uploads/upload/attachment/46/TEST.pdf")
 
 Upload.create!(name: "Test Document",
                category: "HR",
                subcategory: "",
-               attachment: "TEST.pdf")
+               attachment: "/uploads/upload/attachment/46/TEST.pdf")
 
 Upload.create!(name: "Test Document",
                category: "HR",
                subcategory: "",
-               attachment: "TEST.pdf")
+               attachment: "/uploads/upload/attachment/46/TEST.pdf")
 
 Upload.create!(name: "Test Document",
                category: "IT",
                subcategory: "",
-               attachment: "TEST.pdf")
+               attachment: "/uploads/upload/attachment/46/TEST.pdf")
 
 Upload.create!(name: "Test Document",
                category: "IT",
                subcategory: "",
-               attachment: "TEST.pdf")
+               attachment: "/uploads/upload/attachment/46/TEST.pdf")
 
 Upload.create!(name: "Test Document",
                category: "IT",
                subcategory: "",
-               attachment: "TEST.pdf")
+               attachment: "/uploads/upload/attachment/46/TEST.pdf")
 
 Upload.create!(name: "Test Document",
                category: "IT",
                subcategory: "",
-               attachment: "TEST.pdf")
+               attachment: "/uploads/upload/attachment/46/TEST.pdf")
 
 Upload.create!(name: "Test Document",
                category: "IT",
                subcategory: "",
-               attachment: "TEST.pdf")
+               attachment: "/uploads/upload/attachment/46/TEST.pdf")
 
 Upload.create!(name: "Test Document",
                category: "Forms",
                subcategory: "",
-               attachment: "TEST.pdf")
+               attachment: "/uploads/upload/attachment/46/TEST.pdf")
 
 Upload.create!(name: "Test Document",
                category: "Forms",
                subcategory: "",
-               attachment: "TEST.pdf")
+               attachment: "/uploads/upload/attachment/46/TEST.pdf")
 
 Upload.create!(name: "Test Document",
                category: "Forms",
                subcategory: "",
-               attachment: "TEST.pdf")
+               attachment: "/uploads/upload/attachment/46/TEST.pdf")
 
 Upload.create!(name: "Test Document",
                category: "Forms",
                subcategory: "",
-               attachment: "TEST.pdf")
+               attachment: "/uploads/upload/attachment/46/TEST.pdf")
 
 Upload.create!(name: "Test Document",
                category: "Forms",
                subcategory: "",
-               attachment: "TEST.pdf")
+               attachment: "/uploads/upload/attachment/46/TEST.pdf")
 
 Upload.create!(name: "Test Document",
                category: "Operations",
                subcategory: "",
-               attachment: "TEST.pdf")
+               attachment: "/uploads/upload/attachment/46/TEST.pdf")
 
 Upload.create!(name: "Test Document",
                category: "Operations",
                subcategory: "",
-               attachment: "TEST.pdf")
+               attachment: "/uploads/upload/attachment/46/TEST.pdf")
 
 Upload.create!(name: "Test Document",
                category: "Operations",
                subcategory: "",
-               attachment: "TEST.pdf")
+               attachment: "/uploads/upload/attachment/46/TEST.pdf")
 
 Upload.create!(name: "Test Document",
                category: "Operations",
                subcategory: "",
-               attachment: "TEST.pdf")
+               attachment: "/uploads/upload/attachment/46/TEST.pdf")
 
 Upload.create!(name: "Test Document",
                category: "Operations",
                subcategory: "",
-               attachment: "TEST.pdf")
-
-Upload.create!(name: "Test Document",
-               category: "Court Happenings",
-               subcategory: "",
-               attachment: "TEST.pdf")
+               attachment: "/uploads/upload/attachment/46/TEST.pdf")
 
 Upload.create!(name: "Test Document",
                category: "Happenings",
                subcategory: "",
-               attachment: "TEST.pdf")
+               attachment: "/uploads/upload/attachment/46/TEST.pdf")
 
 Upload.create!(name: "Test Document",
                category: "Happenings",
                subcategory: "",
-               attachment: "TEST.pdf")
+               attachment: "/uploads/upload/attachment/46/TEST.pdf")
 
 Upload.create!(name: "Test Document",
                category: "Happenings",
                subcategory: "",
-               attachment: "TEST.pdf")
+               attachment: "/uploads/upload/attachment/46/TEST.pdf")
 
 Upload.create!(name: "Test Document",
                category: "Happenings",
                subcategory: "",
-               attachment: "TEST.pdf")
+               attachment: "/uploads/upload/attachment/46/TEST.pdf")
+
+Upload.create!(name: "Test Document",
+               category: "Happenings",
+               subcategory: "",
+               attachment: "/uploads/upload/attachment/46/TEST.pdf")
 
 Upload.create!(name: "Test Document",
                category: "Court Family",
                subcategory: "",
-               attachment: "TEST.pdf")
+               attachment: "/uploads/upload/attachment/46/TEST.pdf")
 
 Upload.create!(name: "Test Document",
                category: "Court Family",
                subcategory: "",
-               attachment: "TEST.pdf")
+               attachment: "/uploads/upload/attachment/46/TEST.pdf")
 
 Upload.create!(name: "Test Document",
                category: "Court Family",
                subcategory: "",
-               attachment: "TEST.pdf")
+               attachment: "/uploads/upload/attachment/46/TEST.pdf")
 
 Upload.create!(name: "Test Document",
                category: "Court Family",
                subcategory: "",
-               attachment: "TEST.pdf")
+               attachment: "/uploads/upload/attachment/46/TEST.pdf")
 
 Upload.create!(name: "Test Document",
                category: "Court Family",
                subcategory: "",
-               attachment: "TEST.pdf")
+               attachment: "/uploads/upload/attachment/46/TEST.pdf")
 
 Upload.create!(name: "Test Document",
                category: "Chambers",
                subcategory: "",
-               attachment: "TEST.pdf")
+               attachment: "/uploads/upload/attachment/46/TEST.pdf")
 
 Upload.create!(name: "Test Document",
                category: "Chambers",
                subcategory: "",
-               attachment: "TEST.pdf")
+               attachment: "/uploads/upload/attachment/46/TEST.pdf")
 
 Upload.create!(name: "Test Document",
                category: "Chambers",
                subcategory: "",
-               attachment: "TEST.pdf")
+               attachment: "/uploads/upload/attachment/46/TEST.pdf")
 
 Upload.create!(name: "Test Document",
                category: "Chambers",
                subcategory: "",
-               attachment: "TEST.pdf")
+               attachment: "/uploads/upload/attachment/46/TEST.pdf")
 
 Upload.create!(name: "Test Document",
                category: "Chambers",
                subcategory: "",
-               attachment: "TEST.pdf")
+               attachment: "/uploads/upload/attachment/46/TEST.pdf")
 
 Upload.create!(name: "Test Document",
                category: "Jury",
                subcategory: "",
-               attachment: "TEST.pdf")
+               attachment: "/uploads/upload/attachment/46/TEST.pdf")
 
 Upload.create!(name: "Test Document",
                category: "Jury",
                subcategory: "",
-               attachment: "TEST.pdf")
+               attachment: "/uploads/upload/attachment/46/TEST.pdf")
 
 Upload.create!(name: "Test Document",
                category: "Jury",
                subcategory: "",
-               attachment: "TEST.pdf")
+               attachment: "/uploads/upload/attachment/46/TEST.pdf")
 
 Upload.create!(name: "Test Document",
                category: "Jury",
                subcategory: "",
-               attachment: "TEST.pdf")
+               attachment: "/uploads/upload/attachment/46/TEST.pdf")
 
 Upload.create!(name: "Test Document",
                category: "Jury",
                subcategory: "",
-               attachment: "TEST.pdf")
+               attachment: "/uploads/upload/attachment/46/TEST.pdf")

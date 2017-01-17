@@ -165,27 +165,27 @@ Upload.create!(name: "Test Document",
                attachment: "TEST.pdf")
 
 Upload.create!(name: "Test Document",
-               category: "What\’s New",
+               category: "Court Happenings",
                subcategory: "",
                attachment: "TEST.pdf")
 
 Upload.create!(name: "Test Document",
-               category: "What\’s New",
+               category: "Happenings",
                subcategory: "",
                attachment: "TEST.pdf")
 
 Upload.create!(name: "Test Document",
-               category: "What\’s New",
+               category: "Happenings",
                subcategory: "",
                attachment: "TEST.pdf")
 
 Upload.create!(name: "Test Document",
-               category: "What\’s New",
+               category: "Happenings",
                subcategory: "",
                attachment: "TEST.pdf")
 
 Upload.create!(name: "Test Document",
-               category: "What\’s New",
+               category: "Happenings",
                subcategory: "",
                attachment: "TEST.pdf")
 

@@ -20,8 +20,8 @@ class TablePageController < ApplicationController
     @uploads = Upload.where(category: 'Operations').order(:name)
   end
 
-  def whatsNew
-    @uploads = Upload.where(category: 'What\'s New').order(:name)
+  def happenings
+    @uploads = Upload.where(category: 'Happenings').order(:name)
   end
 
   def courtFamily

@@ -1,12 +1,12 @@
 <% if !@upload.errors.empty? %>
   <div class = "alert alert-error">
-      
+
     <ul>
       <% @upload.errors.full_messages.each do |msg| %>
       <li><%= msg %></li>
       <% end %>
     </ul>
-      
+
   </div>
 <% end %>
 
@@ -15,7 +15,7 @@
     <%= f.label :name %>
     <%= f.text_field :name %>
     <%= f.label :category %>
-    <%= f.select :category, ['Chambers', 'Court Family', 'Forms', 'Home', 'HR', 'IT', 'Jury', 'Operations', 'What\'s New']%>
+    <%= f.select :category, ['Chambers', 'Court Family', 'Forms', 'Home', 'HR', 'IT', 'Jury', 'Operations', 'Happenings']%>
     <%= f.label :subcategory %>
     <%= f.select :subcategory, ['A','B','C']%>
     <%= f.label :attachment %>

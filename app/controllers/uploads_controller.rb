@@ -6,7 +6,7 @@ class UploadsController < ApplicationController
 
   def index
     @uploads = Upload.all
-  endgit
+  end
 
   def new
     @upload = Upload.new

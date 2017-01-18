@@ -5,10 +5,8 @@ class UploadsController < ApplicationController
   before_action :admin_user, only: :destroy
 
   def index
-    #@uploads = Upload.all
-    @uploads = Upload.paginate(page: params[:page])
-
-  end
+    @uploads = Upload.all
+  endgit
 
   def new
     @upload = Upload.new
@@ -18,9 +16,10 @@ class UploadsController < ApplicationController
     @upload = Upload.new(upload_params)
 
     if @upload.save
-     redirect_to uploads_path, notice: "The upload #{@upload.name} has been uploaded."
+      flash[:success] = "The upload #{@upload.name} has been uploaded."
+      redirect_to uploads_path
     else
-     render "new"
+      render "new"
     end
 
   end
@@ -28,7 +27,8 @@ class UploadsController < ApplicationController
   def destroy
     @upload = Upload.find(params[:id])
     @upload.destroy
-    redirect_to uploads_path, notice:  "The upload #{@upload.name} has been deleted."
+    flash[:success] = "The upload #{@upload.name} has been deleted."
+    redirect_to uploads_path
   end
 
   private
@@ -42,7 +42,7 @@ class UploadsController < ApplicationController
     def logged_in_user
       unless logged_in?
         store_location
-        flash[:danger] = "Please log in."
+        flash[:warning] = "Please log in."
         redirect_to login_url
       end
     end

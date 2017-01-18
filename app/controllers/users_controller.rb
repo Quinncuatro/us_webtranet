@@ -5,7 +5,7 @@ class UsersController < ApplicationController
   before_action :admin_user, only: [:destroy, :new]
 
   def index
-    @users = User.paginate(page: params[:page])
+    @users = User.all
   end
 
   def show
@@ -58,7 +58,7 @@ class UsersController < ApplicationController
     def logged_in_user
       unless logged_in?
         store_location
-        flash[:danger] = "Please log in."
+        flash[:warning] = "Please log in."
         redirect_to login_url
       end
     end
@@ -71,7 +71,7 @@ class UsersController < ApplicationController
     # Confirms an admin user
     def admin_user
       unless current_user.admin?
-        flash[:danger] = "That page is for administrators only."
+        flash[:error] = "That page is for administrators only."
         redirect_to(root_url) unless current_user.admin?
       end
     end

@@ -1,4 +1,4 @@
-<div class="footerStyle">
+<!--<div class="footerStyle">
   <div class="row">
     <div class="col-xs-12 col-sm-6 col-md-8 text-left">
       <p>Developed with <%= fa_icon "heart" %> by <a href="https://henryneeds.coffee">Henry Quinn</a></p>
@@ -17,4 +17,47 @@
       </div>
     <% end %>
   </div>
-</div>
+</div>-->
+
+<footer class="usa-footer usa-footer-slim footerStyle" role="contentinfo">
+    <div class="usa-footer-primary-section">
+      <div class="usa-grid-full">
+        <nav class="usa-footer-nav usa-width-two-thirds">
+          <ul class="usa-unstyled-list">
+            <% if logged_in? %>
+              <li class="usa-width-one-fourth usa-footer-primary-content">
+                <%= link_to "About U.S. Webtranet", about_path, class: "usa-footer-primary-link" %>
+              </li>
+              <li class="usa-width-one-fourth usa-footer-primary-content">
+                <%= link_to "All Users", users_path, class: "usa-footer-primary-link" %>
+              </li>
+              <li class="usa-width-one-fourth usa-footer-primary-content">
+                <%= link_to "Create User Account", signup_path, class: "usa-footer-primary-link" %>
+              </li>
+            <% else %>
+              <li class="usa-width-one-fourth usa-footer-primary-content">
+                <%= link_to "About", about_path, class: "usa-footer-primary-link" %>
+              </li>
+            <% end %>
+          </ul>
+        </nav>
+        <div class="usa-width-one-third">
+          <div class="usa-footer-primary-content usa-footer-contact_info">
+            <p>(555) 555-5555</p>
+          </div>
+          <div class="usa-footer-primary-content usa-footer-contact_info">
+            <a href="mailto:ExampleEmail@gmail.com">ExampleEmail@gmail.com</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="usa-footer-secondary_section">
+      <div class="usa-grid">
+        <div class="usa-footer-logo">
+          <%= image_tag("ct_seal.png", alt: "Connecticut Seal", class: "usa-footer-slim-logo-img") %>
+          <h3 class="usa-footer-slim-logo-heading">United States District Court, District of Connecticut</h3>
+        </div>
+      </div>
+    </div>
+  </footer>

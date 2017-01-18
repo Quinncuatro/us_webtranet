@@ -1,7 +1,10 @@
-@import "bootstrap-sprockets";
-@import "bootstrap";
+//@import "bootstrap-sprockets";
+//@import "bootstrap";
 
 /* mixins, variables, etc. */
+$state-danger-text: #a94442 !default;
+$gray-base: #000 !default;
+$gray-lighter: lighten($gray-base, 93.5%) !default; // #eee
 
 @mixin box_sizing {
   -moz-box-sizing:    border-box;
@@ -207,18 +210,9 @@ a:hover {
         position: absolute;
         bottom: 0;
         width: 100%;
-        height: 60px;
-        color: #ffffff;
-        background-color: #981B1E;
-        border-top: 1px solid #323A45;
-        margin-top: 20px;
-        padding-top: 20px;
-        padding-bottom: 10px;
-        padding-left: 40px;
 }
 
-.footerStyle a {
-        color: #ffffff;
+.footerStyle a, .footerStyle a:hover {
         font-size: 17px;
         text-decoration: none;
 }
@@ -375,12 +369,12 @@ input {
   }
 }
 
-.field_with_errors {
+/*.field_with_errors {
   @extend .has-error;
   .form-control {
     color: $state-danger-text;
   }
-}
+}*/
 
 .checkbox {
   margin-top: -10px;

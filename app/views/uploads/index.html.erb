@@ -1,32 +1,21 @@
-<% if !flash[:notice].blank? %>
-  <div class = "alert alert-info">
-    <%= flash[:notice] %>
-  </div>
-<% end %>
-
-<br />
-
 <div class="row">
   <div class="col-xs-12 col-sm-4 col-md-2">
-    <%= link_to "New Upload", new_upload_path, class: "btn btn-primary" %>
+    <%= button_to "New Upload", new_upload_path %>
   </div>
 </div>
 
-<table class = "table table-bordered table-striped">
+<table>
   <thead>
     <tr>
-      <th>Name</th>
-      <th>Category</th>
-      <th>Sub-Category</th>
-      <th>Download Link</th>
-      <th>Delete</th>
+      <th scope="col">Name</th>
+      <th scope="col">Category</th>
+      <th scope="col">Sub-Category</th>
+      <th scope="col">Download Link</th>
+      <th scope="col">Delete</th>
     </tr>
   </thead>
 
   <tbody>
-    <%= will_paginate %>
-      <%= render @uploads %>
-    <% will_paginate %>
+    <%= render @uploads %>
   </tbody>
-
 </table>

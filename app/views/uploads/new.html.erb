@@ -6,6 +6,6 @@
   <%= f.label :subcategory %>
   <%= f.select :subcategory, ['A','B','C']%>
   <%= f.label :attachment %>
-  <%= f.file_field :attachment %>
+  <%= f.file_field :attachment, class: "usa-button-gray" %>
   <%= f.submit "Upload" %>
 <% end %>
